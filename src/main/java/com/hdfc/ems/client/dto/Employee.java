@@ -3,10 +3,10 @@
   * 
   * @Date : 21/04/2023
   * 
-  * @Description : Employee Entity Class
+  * @Description : Employee pojo Class
   * ==========================
   * */
-package com.hdfc.ems.client.entity;
+package com.hdfc.ems.client.dto;
 
 import java.time.LocalDate;
 

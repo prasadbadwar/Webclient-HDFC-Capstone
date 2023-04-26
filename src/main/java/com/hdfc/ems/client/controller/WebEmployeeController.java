@@ -1,3 +1,8 @@
+/* =========================
+@Author : Er.Prasad B.Badwar.
+@Date : 22/04/2023
+@Description : WebEmployeeController class can takes data from server employeerestController class.
+*===========================*/
 package com.hdfc.ems.client.controller;
 
 import java.nio.charset.StandardCharsets;
@@ -11,8 +16,8 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.RestTemplate;
 
+import com.hdfc.ems.client.dto.Employee;
 import com.hdfc.ems.client.dto.EmployeeDTO;
-import com.hdfc.ems.client.entity.Employee;
 import com.hdfc.ems.client.util.AESDecrypt;
 
 @RestController
